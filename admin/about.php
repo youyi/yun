@@ -67,7 +67,7 @@ $version= explode("|",$row['version']);
 function check(){
 	$("#jc").attr("disabled","true");
 		$("#jc").html("检查中...");
-$.getJSON("http://www.00hdl.com/api/check.php?v=<?php echo $version[1] ?>&callback=?",
+$.getJSON("http://aoaoao.me/api/check.php?v=<?php echo $version[1] ?>&callback=?",
    function(data){
 var ge=data;
 	if(ge[0]=="bad"){ 
